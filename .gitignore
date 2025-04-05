@@ -1,0 +1,59 @@
+# Файлы кэша Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+.DS_Store
+
+# Файлы виртуального окружения
+venv/
+env/
+*.venv
+*.env
+
+# Лог-файлы и отладочная информация
+*.log
+*.out
+*.err
+
+# Конфиденциальные файлы и переменные окружения
+.env
+*.env
+secrets.json
+
+# Файлы зависимостей (если используете pipenv или poetry)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Файлы IDE и редакторов
+.vscode/
+.idea/
+*.iml
+
+# Базы данных и файлы SQLite
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# Cборки, кэш и артефакты
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# Docker
+docker-compose.override.yml
+
+# Pytest и другие тестовые файлы
+.coverage
+.tox/
+nosetests.xml
+pytest_cache/
+
+# mypy и другие статические анализаторы
+.mypy_cache/
+.dmypy.json
